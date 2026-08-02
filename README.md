@@ -7,23 +7,23 @@
 <h2 align="center">Nxtspace Mobile</h2>
 
 <p align="center">
-  🚀 移动端 3D 场景搭建应用
+  🚀 React Native 跨平台移动端应用
 </p>
 
 ---
 
-![React](https://img.shields.io/badge/React-v19.2.5-61DAFB?logo=react&logoColor=white&style=flat-square) ![Vite](https://img.shields.io/badge/Vite-v8.0.10-646CFF?logo=vite&logoColor=white&style=flat-square) ![Three.js](https://img.shields.io/badge/Three.js-v0.183.2-000000?logo=three.js&logoColor=white&style=flat-square) [![Leafer](https://img.shields.io/github/v/release/leaferjs/leafer?label=Leafer&color=34d399r&style=flat-square)](https://www.leaferjs.com/) ![TypeScript](https://img.shields.io/badge/TypeScript-v6.0.2-007ACC?logo=typescript&logoColor=white&style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4.3.0-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square) ![Gluestack UI](https://img.shields.io/badge/Gluestack%20UI-v4-000000?logo=react&logoColor=white&style=flat-square)
+![React Native](https://img.shields.io/badge/React%20Native-v0.83.6-61DAFB?logo=react&logoColor=white&style=flat-square) ![React](https://img.shields.io/badge/React-v19.2.5-61DAFB?logo=react&logoColor=white&style=flat-square) ![Three.js](https://img.shields.io/badge/Three.js-v0.183.2-000000?logo=three.js&logoColor=white&style=flat-square) [![Leafer](https://img.shields.io/github/v/release/leaferjs/leafer?label=Leafer&color=34d399r&style=flat-square)](https://www.leaferjs.com/) ![TypeScript](https://img.shields.io/badge/TypeScript-v6.0.2-007ACC?logo=typescript&logoColor=white&style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4.3.0-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square) ![Gluestack UI](https://img.shields.io/badge/Gluestack%20UI-v4-000000?logo=react&logoColor=white&style=flat-square)
 
 
 ### 简介
 
 ---
 
-Nxtspace Mobile 是一款面向移动端的建筑 3D 场景搭建应用，专为建筑行业打造。
+Nxtspace Mobile 是一款基于 React Native 构建的建筑 3D 场景搭建移动端应用，专为建筑行业打造。
 
-无论您是否有模型基础，都能轻松上手。通过 Nxtspace Mobile 您可以在移动设备上快速实现 3D 建筑场景搭建的需求，轻松创建专属 Demo。
+无论您是否有模型基础，都能轻松上手。通过 Nxtspace Mobile 您可以快速实现 3D 建筑场景搭建的需求，轻松创建专属 Demo。
 
-Nxtspace Mobile 针对移动端触控操作进行优化，支持 Android、iOS 等移动平台运行，为用户提供便捷的 2D/3D 场景编辑体验。
+Nxtspace Mobile 支持 Android、iOS 等移动平台运行，结合 React Native 提供跨平台能力，并通过 Gluestack UI 提供统一的移动端交互体验。
 
 
 ### 模型
@@ -67,13 +67,15 @@ https://www.sweethome3d.com/freeModels.jsp
 
 Tips: 🔲 筹备中 🚧 进行中 ✅ 已完成
 
+（以下功能保持与 Web/Desktop 完全一致）
+
 - ✅ 二维
 
   - ✅ 绘制
   - ✅ 网格
   - ✅ 标尺
   - ✅ 缩略图
-  - ✅ 操作菜单
+  - ✅ 右键菜单
   - ✅ 参考线
   - ✅ 参考图
   - ✅ 墙体长度
@@ -110,7 +112,7 @@ Tips: 🔲 筹备中 🚧 进行中 ✅ 已完成
   - ✅ 保存时间
   - ✅ 版本号
 
-- ✅ 快捷操作
+- ✅ 快捷键支持
 
   - ✅ 复制
   - ✅ 粘贴
