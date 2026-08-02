@@ -67,8 +67,6 @@ https://www.sweethome3d.com/freeModels.jsp
 
 Tips: 🔲 筹备中 🚧 进行中 ✅ 已完成
 
-（以下功能保持与 Web/Desktop 完全一致）
-
 - ✅ 二维
 
   - ✅ 绘制
