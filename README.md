@@ -7,13 +7,15 @@
 <h2 align="center">Nxtspace Mobile</h2>
 
 <p align="center">
-  🚀 React Native 跨平台移动端应用
+  🚀 React Native Cross-platform Mobile App
 </p>
 
 ---
 
-![React Native](https://img.shields.io/badge/React%20Native-v0.83.6-61DAFB?logo=react&logoColor=white&style=flat-square) ![React](https://img.shields.io/badge/React-v19.2.5-61DAFB?logo=react&logoColor=white&style=flat-square) ![Three.js](https://img.shields.io/badge/Three.js-v0.183.2-000000?logo=three.js&logoColor=white&style=flat-square) [![Leafer](https://img.shields.io/github/v/release/leaferjs/leafer?label=Leafer&color=34d399r&style=flat-square)](https://www.leaferjs.com/) ![TypeScript](https://img.shields.io/badge/TypeScript-v6.0.2-007ACC?logo=typescript&logoColor=white&style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4.3.0-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square) ![Gluestack UI](https://img.shields.io/badge/Gluestack%20UI-v4-000000?logo=react&logoColor=white&style=flat-square)
+![React Native](https://img.shields.io/badge/React%20Native-v0.83.6-61DAFB?logo=react&logoColor=white&style=flat-square) ![React](https://img.shields.io/badge/React-v19.2.5-61DAFB?logo=react&logoColor=white&style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white&style=flat-square) ![Gluestack](https://img.shields.io/badge/Gluestack-UI-00C7B7?style=flat-square)
 
+<details open>
+<summary><strong>中文 / Chinese</strong></summary>
 
 ### 简介
 
@@ -24,7 +26,6 @@ Nxtspace Mobile 是一款基于 React Native 构建的建筑 3D 场景搭建移�
 无论您是否有模型基础，都能轻松上手。通过 Nxtspace Mobile 您可以快速实现 3D 建筑场景搭建的需求，轻松创建专属 Demo。
 
 Nxtspace Mobile 支持 Android、iOS 等移动平台运行，结合 React Native 提供跨平台能力，并通过 Gluestack UI 提供统一的移动端交互体验。
-
 
 ### 模型
 
@@ -52,14 +53,12 @@ Sweet Home 3D 免费模型：
 
 https://www.sweethome3d.com/freeModels.jsp
 
-
 ### 平台
 
 ---
 
 - 🟢 Android
 - 🟢 iOS
-
 
 ### 功能/计划
 
@@ -82,7 +81,6 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
     - 🟢 网格与标尺（网格开关 + 吸附，横纵标尺随缩放/平移同步）
     - 🟢 右键菜单（上下文快捷操作：复制/粘贴/删除/分组/锁定/属性/重命名）
     - 🟢 可交互小地图缩略图（拖动聚焦框平移主场景，滚轮以光标为锚点缩放）
-
   - 🟢 三维可视化
     - 🟢 2D / 3D 视图一键切换
     - 🟢 正交 / 透视投影切换
@@ -102,17 +100,12 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
     - 🟢 右侧栏 3D 实时预览
     - 🟢 3D 场景缩略图
 
-  - 🟢 只读预览
-    - 🟢 三维查看（不含任何编辑操作）
-    - 🟢 搜索定位、视角切换、风格渲染
-
 - 🟢 元件库与素材库
   - 🟢 结构元件
     - 🟢 墙体（厚度 / 高度 / 材质默认设置）
     - 🟢 门洞（单开门 / 双开门 / 无门）
     - 🟢 窗户（尺寸 / 窗台 / 样式可调）
     - 🟢 区域（房间参数化默认设置）
-
   - 🟢 室内模型库
     - 🟢 分类浏览（客厅 / 卧室 / 厨房 / 卫浴 / 办公 / 其他，搜索时无结果分类自动隐藏）
     - 🟢 搜索过滤（按名称快速检索元件）
@@ -130,7 +123,7 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
   - 🟢 基础操作
     - 🟢 指针工具（切换回选择态，退出绘制模式）
     - 🟢 选择（多选 / 框选 / 点选 / 反选）
-    - 🟢 移动、旋转、缩放（三轴 Gizmo 手柄）
+    - 🟢 移动、旋转、��放（三轴 Gizmo 手柄）
     - 🟢 删除
     - 🟢 元素锁定（锁定后可选中但禁止移动 / 缩放 / 旋转 / 删除，混选锁定元素整批拦截）
     - 🟢 复制、剪切、粘贴（含落点预览，粘贴项独立偏移防重叠）
@@ -138,73 +131,25 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
     - 🟢 全局元件搜索（弹窗搜索所有楼层的墙/洞/家具/区域，定位 + 自动选中 + 聚焦）
     - 🟢 楼层快速切换（下拉选择器 + 搜索过滤，跨楼层跳层编辑）
 
-  - 🟢 分组与图层
-    - 🟢 元件分组（选中元素创建逻辑组，整体操作）
-    - 🟢 解组
-    - 🟢 多楼层图层（独立编辑、切换、显隐控制）
-    - 🟢 元素分组列表（层级树状管理）
-
-  - 🟢 自动吸附
-    - 🟢 智能吸附点（端点 / 中点 / 垂点，中线 / 内线 / 外线定位线，端点延长线）
-    - 🟢 边线吸附（沿墙体边线贴合）
-    - 🟢 线段吸附（整段长度对齐）
-    - 🟢 网格吸附（整数步长对齐，三维网格线随缩放自动细节分级）
-    - 🟢 参考线吸附（辅助线磁吸）
-    - 🟢 吸附半径恒定（触发半径按屏幕像素换算，任意缩放下灵敏度一致）
-    - 🟢 吸附视觉反馈（标记点、距离气泡、直角符号、轴对齐延长线，吸附位置一眼可见）
-    - 🟢 吸附开关（总开关 + 分项配置）
-
 - 🟢 场景与属性
   - 🟢 右侧栏快捷工具
     - 🟢 放大 / 缩小按钮
     - 🟢 聚焦选区 / 聚焦全局按钮
     - 🟢 吸附分项弹出面板（点/线/线段/网格/参考线 5 项独立勾选）
-
   - 🟢 属性面板
     - 🟢 墙体属性（厚度 / 高度 / 弧墙细分 / 颜色 / 材质）
     - 🟢 门窗属性（尺寸 / 开启方向 / 样式 / 离地高度）
     - 🟢 家具属性（尺寸 / 旋转 / 位置 / 替换模型）
     - 🟢 区域属性（名称 / 颜色 / 材质）
     - 🟢 分组属性（整体缩放 / 重命名）
-
   - 🟢 场景设置
     - 🟢 场景尺寸（长 / 宽）
     - 🟢 天空（颜色 / 贴图 2 种模式，7+ 天空纹理）
     - 🟢 地面（颜色 / 贴图 2 种模式，60+ 地面 / 墙面 / 地板纹理）
 
-  - 🟢 墙体默认设置
-    - 🟢 墙体显隐（相机背面剔除开关）
-    - 🟢 自动闭合（绘制首尾自动连接）
-    - 🟢 幽灵墙（辅助预览模式）
-    - 🟢 默认高度
-    - 🟢 默认透明度
-    - 🟢 单位（厘米 / 米）
-    - 🟢 内侧材质纹理（40+ 墙面纹理可选）
-    - 🟢 外侧材质纹理（40+ 墙面纹理可选）
-
-  - 🟢 区域默认设置
-    - 🟢 名称前缀（新建区域自动命名）
-    - 🟢 填充模式（纯色 / 贴图）
-    - 🟢 填充颜色
-    - 🟢 地面纹理（60+ 地面 / 地板纹理可选）
-    - 🟢 透明度
-
-- 🟢 一键外景
-  - 🟢 高德地图接入（框选矩形区域，自动生成周边真实建筑与道路，二维 / 三维同步呈现）
-  - 🟢 真实车道线（道路渲染更贴近实景）
-  - 🟢 定位当前位置（默认定位到当前所在位置，定位按钮一键返回）
-  - 🟢 外景编辑（单独选中 / 移动 / 旋转，调整更灵活）
-  - 🟢 高德 Key 配置（宿主 / 本地读取，偏好设置内统一管理）
-
-- 🟢 多人协同
-  - 🟢 局域网协同会话（发现页扫描并加入协同，多人同时编辑同一方案）
-  - 🟢 远端光标实时展示（二维画布可见他人鼠标位置）
-  - 🟢 协同改动实时同步（跨端元素 / 顶点变更自动重算，不干扰本地操作）
-
 - 🟢 文件与数据
   - 🟢 导入
     - 🟢 NXTS 格式（项目文件）
-
   - 🟢 导出
     - 🟢 NXTS 格式（完整项目 JSON，全量场景下载）
     - 🟢 GLTF 格式（三维场景直出，JSON 结构 + 贴图分离，含一键外景）
@@ -212,39 +157,13 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
     - 🟢 OBJ 格式（纯几何体导出，含一键外景）
     - 🟢 SVG 格式（二维矢量图纸导出，含一键外景）
     - 🟢 2D / 3D 截图（PNG 格式，自动命名下载）
-    - 🟢 导入导出过程等待遮罩提示
-
-  - 🟢 项目管理
-    - 🟢 新建项目
-    - 🟢 保存
-    - 🟢 项目重命名
-    - 🟢 清空场景
-    - 🟢 关闭页面前未保存变更提示（Web 端）
 
 - 🟢 偏好设置
   - 🟢 外观
     - 🟢 浅色 / 深色主题（跟随系统 + 手动切换）
     - 🟢 界面语言（简体中文 / English，下拉切换即时生效）
-
-  - 🟢 2D 视图
-    - 🟢 滚轮缩放速度（0.1× ~ 5× 滑块）
-    - 🟢 拖拽平移速度（0.1× ~ 5× 滑块）
-    - 🟢 拖拽动画开关（是否启用惯性缓动）
-
-  - 🟢 3D 视图
-    - 🟢 鼠标交互预设（左键平移/右键旋转 或 左键旋转/右键平移）
-    - 🟢 滚轮缩放速度（0.1× ~ 5× 滑块）
-    - 🟢 平移速度（0.1× ~ 5× 滑块）
-    - 🟢 旋转速度（0.1× ~ 5× 滑块）
-    - 🟢 鼠标惯性开关 + 阻尼系数（0.01 ~ 1.0 滑块）
-    - 🟢 缩放至光标开关（滚轮以鼠标位置为锚点缩放）
-    - 🟢 启用平移 / 启用缩放 / 启用旋转（3 项独立开关）
-    - 🟢 屏幕空间平移开关
-
-  - 🟢 其他
-    - 🟢 自动保存开关（手动确认后写入设置）
-    - 🟢 一键恢复默认视图设置
-
+  - 🟢 2D / 3D 视图设置
+    - 🟢 缩放速度、平移速度、旋转速度、惯性开关
   - 🟢 单位
     - 🟢 公制单位（厘米 / 米），属性面板统一换算
 
@@ -256,58 +175,171 @@ Tips: ⚪ 筹备中 🟡 进行中 🟢 已完成
     - 🟢 撤销（⌘/Ctrl + Z）
     - 🟢 重做（⌘/Ctrl + Y）
 
-  - 🟢 编辑操作
-    - 🟢 复制（⌘/Ctrl + C）
-    - 🟢 剪切（⌘/Ctrl + X）
-    - 🟢 粘贴（⌘/Ctrl + V）
-    - 🟢 删除（Backspace / Delete）
-    - 🟢 分组（⌘/Ctrl + G）
-    - 🟢 解组（⌘/Ctrl + Shift + G）
-    - 🟢 锁定 / 解锁（⌘/Ctrl + L）
-    - 🟢 取消绘制（Esc）
+### 免责声明
 
-  - 🟢 视图操作
-    - 🟢 切换 2D / 3D（⌘/Ctrl + /）
-    - 🟢 放大（⌘/Ctrl + [）
-    - 🟢 缩小（⌘/Ctrl + ]）
-    - 🟢 聚焦全局（⌘/Ctrl + 9）
-    - 🟢 聚焦选区（⌘/Ctrl + 0）
-    - 🟢 搜索元件（⌘/Ctrl + J）
-    - 🟢 全屏切换
+---
 
-  - 🟢 漫游操作
-    - 🟢 移动（W / S / A / D）
-    - 🟢 奔跑（Shift）
-    - 🟢 跳跃（空格）
-    - 🟢 切换人称（V）
-    - 🟢 退出漫游（Esc）
+本项目处于持续开发与迭代阶段，功能与界面可能随版本更新而调整，具体以实际发布内容为准。
 
-- 🟢 状态栏与信息
-  - 🟢 场景信息卡片（鼠标悬停展开详情，标题实时显示当前模式）
-    - 🟢 2D / 3D 实时帧率（按等级染色：绿 / 黄 / 橙 / 红）
-    - 🟢 顶点总数
-    - 🟢 线条总数
-    - 🟢 三角面片总数
-    - 🟢 纹理贴图数量
-    - 🟢 物体数量
-  - 🟢 当前场景缩放比例
-  - 🟢 拖拽时实时坐标显示
-  - 🟢 场景范围 / 边界
-  - 🟢 最近保存时间
-  - 🟢 应用版本号
-  - 🟢 错误 / 警告计数提示（点击跳转到日志面板）
-  - 🟢 底部快捷键提示条（根据当前绘制模式动态展示可用快捷键）
+</details>
 
-- 🟢 帮助与引导
-  - 🟢 快捷键说明页（独立路由，完整快捷键表）
-  - 🟢 新手引导（分步覆盖：菜单栏 / 工具栏 / 模型栏 / 属性栏）
-  - 🟢 问题反馈（跳转 GitHub Issues 提交 Bug 与建议）
+<details>
+<summary><strong>English / 英文</strong></summary>
 
-- 🟢 AI 智能体面板（仅宿主环境提供）
+### Introduction
 
-- 🟡 管理
-  - 🟢 参考线管理（增删改 / 颜色 / 显隐）
-  - 🟢 多楼层管理（图层系统）
-  - 🟢 元件分组管理
-  - 🟢 属性管理
-  - ⚪ 组件（选中多个模型保存为新的组合元件，出现在模型库中可重复拖拽，支持保存/删除/重命名）
+---
+
+Nxtspace Mobile is a 3D architectural scene-building mobile application built with React Native, designed specifically for the architecture and construction industry.
+
+Whether you have prior experience with 3D modeling or are completely new to it, you can get started quickly. With Nxtspace Mobile, you can rapidly build 3D architectural scenes and create your own demo projects with ease.
+
+Nxtspace Mobile supports Android and iOS, offering cross-platform performance through React Native and a unified mobile interaction experience via Gluestack UI.
+
+### Models
+
+---
+
+Nxtspace Mobile supports importing and managing 3D model resources, giving users a rich library for architectural scene creation.
+
+It supports free model assets from Sweet Home 3D, including:
+
+- Furniture models
+- Interior decoration models
+- Lighting models
+- Plant models
+- Kitchen models
+- Bathroom models
+- Door and window models
+- Architectural component models
+
+Model sources:
+
+- Sweet Home 3D official free model library
+- User-customized 3D models
+
+Sweet Home 3D free models:
+
+https://www.sweethome3d.com/freeModels.jsp
+
+### Platforms
+
+---
+
+- 🟢 Android
+- 🟢 iOS
+
+### Features & Roadmap
+
+---
+
+Legend: ⚪ Planned 🟡 In Progress 🟢 Completed
+
+- 🟢 Editor Core
+  - 🟢 2D Floor Plan
+    - 🟢 Wall drawing (straight lines / arc walls, orthogonal / angle-based wall drawing, inner / outer / center alignment guides, cancel during drawing)
+    - 🟢 Openings and windows (auto-cut openings when walls are inserted, single / double door / opening / multiple styles)
+    - 🟢 Wall-to-window movement (drag to adjacent wall to create a seamless connection, dynamic measurement feedback, ghost preview during drawing)
+    - 🟢 Area drawing (automatic area calculation for enclosed rooms, polygon support)
+    - 🟢 Furniture placement (drag model into scene + real-time snap + placement preview)
+    - 🟢 Vertex editing (drag endpoints / corners to refine wall geometry)
+    - 🟢 Dimension annotation (real-time wall length / angle display, toggling visibility, direct input while drawing)
+    - 🟢 Clearance ruler (real-time shortest distance to walls or nearby objects)
+    - 🟢 Reference guides (horizontal / vertical / circular guides, color customization, layer-based management)
+    - 🟢 Reference images (CAD / floor plans / any image as base tracing layer, scalable / movable / opacity adjustable)
+    - 🟢 Grid and ruler system
+    - 🟢 Context menu (copy / paste / delete / group / lock / properties / rename)
+    - 🟢 Interactive mini-map
+  - 🟢 3D Visualization
+    - 🟢 2D / 3D view switching
+    - 🟢 Orthographic / perspective projection switching
+    - 🟢 Multiple camera views (front / side / top / bottom / left / right / isometric)
+    - 🟢 View helper sphere
+    - 🟢 Dollhouse mode
+    - 🟢 Walkthrough mode
+      - 🟢 First-person mode (WASD movement / Shift sprint / Space jump)
+      - 🟢 Third-person orbit camera
+    - 🟢 Stylized rendering modes (material / material + outline / outline only)
+    - 🟢 Three rendering quality levels (high / balanced / performance)
+    - 🟢 2D / 3D visual consistency
+    - 🟢 Sky and ground system
+    - 🟢 Right-side 3D live preview
+    - 🟢 3D scene thumbnails
+
+- 🟢 Asset Library
+  - 🟢 Structural components
+    - 🟢 Walls (thickness / height / material defaults)
+    - 🟢 Openings (single door / double door / no door)
+    - 🟢 Windows (size / sill / style)
+    - 🟢 Areas (room parameter presets)
+  - 🟢 Interior model library
+    - 🟢 Category browsing (living room / bedroom / kitchen / bathroom / office / other)
+    - 🟢 Search and filtering
+    - 🟢 Custom model import (GLB / ZIP)
+    - 🟢 Batch import
+
+- 🟢 Material & Texture
+  - 🟢 Material library tabs
+  - 🟢 Material selector
+  - 🟢 Drag-and-drop tiling
+  - 🟢 Flood-fill material application
+  - 🟢 Material brush tool
+
+- 🟢 Editing & Operations
+  - 🟢 Basic operations
+    - 🟢 Pointer tool
+    - 🟢 Selection (multi-select / box select / click select / inverse select)
+    - 🟢 Move / rotate / scale (3-axis gizmo)
+    - 🟢 Delete
+    - 🟢 Element locking
+    - 🟢 Copy / cut / paste
+    - 🟢 Undo / redo
+    - 🟢 Global component search
+    - 🟢 Floor quick switching
+
+- 🟢 Scene & Properties
+  - 🟢 Shortcut tools panel
+  - 🟢 Property panel
+  - 🟢 Scene settings
+  - 🟢 Wall default settings
+  - 🟢 Area default settings
+
+- 🟢 File & Data
+  - 🟢 Import
+    - 🟢 NXTS format
+  - 🟢 Export
+    - 🟢 NXTS
+    - 🟢 GLTF
+    - 🟢 GLB
+    - 🟢 OBJ
+    - 🟢 SVG
+    - 🟢 2D / 3D screenshots
+
+- 🟢 Preferences
+  - 🟢 Appearance
+    - 🟢 Light / dark theme
+    - 🟢 UI language (Simplified Chinese / English)
+  - 🟢 2D / 3D view tuning
+  - 🟢 Unit conversion
+
+- 🟢 Shortcuts
+  - 🟢 Project actions
+    - 🟢 New project
+    - 🟢 Save
+    - 🟢 Rename
+    - 🟢 Undo
+    - 🟢 Redo
+
+### Disclaimer
+
+---
+
+This project is under active development. Features and interfaces may change as updates are released. Please refer to the actual published version for the latest details.
+
+</details>
+
+---
+
+<p align="center">
+  <sub>Built for architecture, interior planning, and 3D design workflows.</sub>
+</p>
